@@ -73,7 +73,7 @@ python manage.py makemigrations blog
 
 # Apply migration to database
 python manage.py migrate blog
-###Step 4: Register Models in Admin Panel
+### Step 4: Register Models in Admin Panel
 Add your models to admin.py to make them available in the Django admin interface:
 
 from django.contrib import admin
