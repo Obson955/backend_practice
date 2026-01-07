@@ -80,6 +80,30 @@ from django.contrib import admin
 from .models import Post
 
 admin.site.register(Post)
+
+
+Step 5. 
+create urls.py in the app foldder 
+
+Step 6. 
+create views.py this is where we will add the business logic of the application 
+-Receive the request information (current user session and other stuff) as well as parameters parsed from the url (for example, the id of a blog post)
+-Fetch the information from the model, probably adding some logic (like filtering logic to show only the published posts)
+-Create a response by filling a template with the fetched info
+
+Step 7.
+create template where we will put html code to structure the page 
+
+
+
+
+
+
+
+
+
+
+
 Quick Reference Commands
 # Create project
 django-admin startproject mysite .
